@@ -1,0 +1,12 @@
+PODS:
+  - PCLBlurEffectAlert (1.1.0)
+
+DEPENDENCIES:
+  - PCLBlurEffectAlert
+
+SPEC CHECKSUMS:
+  PCLBlurEffectAlert: cf9fe1d142dad012fe806b96844e2cf72e0bd366
+
+PODFILE CHECKSUM: 67aa7f05cc0e2c579ca16956c8afa4f6a81473c7
+
+COCOAPODS: 1.1.1

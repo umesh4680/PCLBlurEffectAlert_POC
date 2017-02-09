@@ -1,0 +1,6 @@
+framework module Pods_CustomeAlertSampleUITests {
+  umbrella header "Pods-CustomeAlertSampleUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

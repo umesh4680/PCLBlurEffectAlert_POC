@@ -1,0 +1,28 @@
+
+
+ github Link.
+
+        https://github.com/hryk224/PCLBlurEffectAlert
+
+
+1. Just Install Pod files
+2. Get button on Screen
+3. Import PCLBlurEffectAlert for ViewController
+4. On Button Action write
+
+// Make PCLAlert View Object
+let alert = PCLBlurEffectAlert.Controller(title: "PCL Bluer Alert", message: "Sample", effect: UIBlurEffect(style:.regular), style: .alert)
+
+// Add Cancel Button On Alert to dissmiss Alert
+let alertBtn = PCLBlurEffectAlert.AlertAction(title: "Cancel", style: .cancel, handler: nil)
+alert.addAction(alertBtn)
+
+// Configure Alert
+alert.configure(backgroundColor: .red)
+alert.configure(cornerRadius: 10.0)
+alert.configure(overlayBackgroundColor: .lightGray)
+alert.configure(titleFont: UIFont.systemFont(ofSize: 20), titleColor: .blue)
+
+// Show Alert
+alert.show()
+
